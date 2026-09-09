@@ -2,7 +2,7 @@ const skills = [
   "CSS",
   "Desenvolvimento Web",
   "Identidade Visual",
-  "Experiência do Usuário",
+  "JavaScript",
   "Prototipagem",
   "Motion Design",
 ];
