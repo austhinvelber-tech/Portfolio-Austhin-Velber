@@ -4,7 +4,7 @@ const skills = [
   "Jogos",
   "JavaScript",
   "HTML",
-  "Motion Design",
+  "Design",
 ];
 
 export function About() {
