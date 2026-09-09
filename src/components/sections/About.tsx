@@ -17,7 +17,7 @@ export function About() {
               Sobre mim
             </p>
             <h2 className="text-balance text-3xl font-light leading-tight tracking-tight text-foreground sm:text-4xl md:text-5xl">
-              Transformando ideias em experiências visuais refinadas
+              Desenvolvedor em ascensão
             </h2>
           </div>
 
