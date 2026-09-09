@@ -16,7 +16,7 @@ const contactInfo = [
   {
     icon: MapPin,
     label: "Localização",
-    value: "São Paulo, Brasil",
+    value: "São Luís - MA",
     href: "#",
   },
 ];
