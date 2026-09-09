@@ -5,7 +5,7 @@ export function Footer() {
     <footer className="border-t border-border bg-background py-10">
       <div className="container-tight flex flex-col items-center justify-between gap-4 md:flex-row">
         <p className="text-sm text-muted-foreground">
-          © {currentYear} Austhin. Todos os direitos reservados.
+          © {currentYear} Austhin Velber. Todos os direitos reservados.
         </p>
 
         <div className="flex items-center gap-6">
