@@ -23,16 +23,13 @@ export function About() {
 
           <div className="flex flex-col justify-center">
             <p className="text-lg leading-relaxed text-muted-foreground">
-              Sou um criativo multidisciplinar que acredita no poder do design
-              minimalista para comunicar com clareza. Cada projeto é uma
-              oportunidade de unir estética e funcionalidade, criando soluções
-              que não apenas parecem bonitas, mas também resolvem problemas
-              reais.
+              Olá! Meu nome é Austhin Velber, tenho 21 anos e sou um entusiasta
+              da tecnologia em evolução constante.
             </p>
             <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
-              Com anos de experiência trabalhando com marcas, startups e
-              agências, desenvolvi um olhar apurado para detalhes, tipografia,
-              espaço em branco e hierarquia visual.
+              Atualmente faço parte do programa Jovem Tech, onde estudo sobre as
+              principais linguagens de programação, desenvolvo projetos e
+              recebo capacitação para o mercado de trabalho.
             </p>
 
             <div className="mt-10 grid grid-cols-2 gap-3 sm:grid-cols-3">
