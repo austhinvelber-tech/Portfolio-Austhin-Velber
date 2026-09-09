@@ -22,9 +22,9 @@ export function Hero() {
           Portfólio
         </p>
         <h1 className="mx-auto max-w-4xl text-balance text-4xl font-light leading-[1.1] tracking-tight text-foreground sm:text-5xl md:text-6xl lg:text-7xl">
-          Criando experiências digitais com{" "}
-          <span className="font-medium">propósito</span> e{" "}
-          <span className="font-medium">minimalismo</span>
+          Construindo uma base sólida em{" "}
+          <span className="font-medium">desenvolvimento de software</span> e{" "}
+          <span className="font-medium">análise de dados</span>
         </h1>
         <p className="mx-auto mt-6 max-w-2xl text-balance text-lg leading-relaxed text-muted-foreground md:text-xl">
           Designer e desenvolvedor focado em construir interfaces limpas,
