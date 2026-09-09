@@ -31,6 +31,13 @@ export function About() {
               principais linguagens de programação, desenvolvo projetos e
               recebo capacitação para o mercado de trabalho.
             </p>
+            <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
+              Minha paixão por games e tecnologia me levou a descobrir o mundo
+              da programação, que me ajudou a compreender melhor todo o
+              processo de criação e desenvolvimento deles. Recentemente, comecei
+              a me aprofundar no desenvolvimento Front-end, área que tem me
+              atraído pela possibilidade de unir design e funcionalidade.
+            </p>
 
             <div className="mt-10 grid grid-cols-2 gap-3 sm:grid-cols-3">
               {skills.map((skill) => (
