@@ -27,13 +27,6 @@ export function Header() {
       }`}
     >
       <div className="container-tight flex items-center justify-between">
-        <a
-          href="#inicio"
-          className="text-lg font-medium tracking-tight text-foreground"
-        >
-          Austhin<span className="text-terracotta">.</span>
-        </a>
-
         <nav className="hidden items-center gap-8 md:flex">
           {navItems.map((item) => (
             <a
