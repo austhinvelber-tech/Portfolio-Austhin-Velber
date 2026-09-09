@@ -27,8 +27,9 @@ export function Hero() {
           <span className="font-medium">análise de dados</span>
         </h1>
         <p className="mx-auto mt-6 max-w-2xl text-balance text-lg leading-relaxed text-muted-foreground md:text-xl">
-          Designer e desenvolvedor focado em construir interfaces limpas,
-          funcionais e memoráveis para marcas que querem se destacar.
+          Programador aspirante, atualmente focado em aprender mais sobre
+          linguagens de programação e áreas de desenvolvimento como: Front-end,
+          Back-end e Análise de dados.
         </p>
 
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
