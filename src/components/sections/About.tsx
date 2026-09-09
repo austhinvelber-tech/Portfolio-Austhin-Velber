@@ -1,5 +1,5 @@
 const skills = [
-  "Design de Interfaces",
+  "CSS",
   "Desenvolvimento Web",
   "Identidade Visual",
   "Experiência do Usuário",
