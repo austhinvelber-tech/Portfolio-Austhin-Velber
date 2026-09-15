@@ -43,7 +43,7 @@ export function Contact() {
             <a
               key={item.label}
               href={item.href}
-              className="group flex flex-col items-center rounded-2xl border border-border bg-card p-8 text-center transition-all hover:border-foreground/20 hover:bg-background hover:shadow-lg hover:shadow-foreground/5"
+              className="group flex flex-col items-center rounded-2xl border border-border bg-card p-8 text-center transition-all hover:border-foreground/20 hover:bg-secondary hover:shadow-lg hover:shadow-foreground/5"
             >
               <div className="flex h-12 w-12 items-center justify-center rounded-full bg-secondary text-terracotta transition-colors group-hover:bg-terracotta group-hover:text-primary-foreground">
                 <item.icon className="h-5 w-5" />
