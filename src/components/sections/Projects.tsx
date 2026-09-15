@@ -37,7 +37,7 @@ export function Projects() {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="group flex flex-col rounded-2xl border border-border bg-card p-8 transition-all hover:border-foreground/20 hover:bg-background hover:shadow-lg hover:shadow-foreground/5"
+              className="group flex flex-col rounded-2xl border border-border bg-card p-8 transition-all hover:border-foreground/20 hover:bg-secondary hover:shadow-lg hover:shadow-foreground/5"
             >
               <h3 className="text-xl font-medium tracking-tight text-foreground">
                 {project.title}
