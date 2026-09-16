@@ -40,8 +40,9 @@ export function Projects() {
 
         <div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {projects.map((project, index) => (
-            <div
+            <a
               key={index}
+              href={project.link || undefined}
               className="group flex flex-col rounded-2xl border border-border bg-card p-8 transition-all hover:border-foreground/20 hover:bg-secondary hover:shadow-lg hover:shadow-foreground/5"
             >
               <h3 className="text-xl font-medium tracking-tight text-foreground">
@@ -61,19 +62,16 @@ export function Projects() {
                 ))}
               </div>
               {project.link ? (
-                <a
-                  href={project.link}
-                  className="mt-8 inline-flex items-center gap-2 text-sm font-medium text-terracotta transition-colors hover:text-foreground"
-                >
+                <span className="mt-8 inline-flex items-center gap-2 text-sm font-medium text-terracotta transition-colors group-hover:text-foreground">
                   Ver projeto
                   <ExternalLink className="size-4" aria-hidden="true" />
-                </a>
+                </span>
               ) : (
                 <span className="mt-8 text-sm text-muted-foreground">
                   Link em breve
                 </span>
               )}
-            </div>
+            </a>
           ))}
         </div>
       </div>
