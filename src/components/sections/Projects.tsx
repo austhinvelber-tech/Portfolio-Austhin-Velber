@@ -5,7 +5,7 @@ const projects = [
     title: "Projeto em breve",
     description: "Em desenvolvimento. Novidade chegando aqui em breve.",
     tags: ["Front-end", "Web"],
-    link: "",
+    link: "https://github.com/austhinvelber-tech/hero-contact-page",
   },
   {
     title: "Projeto em breve",
@@ -63,8 +63,6 @@ export function Projects() {
               {project.link ? (
                 <a
                   href={project.link}
-                  target="_blank"
-                  rel="noreferrer"
                   className="mt-8 inline-flex items-center gap-2 text-sm font-medium text-terracotta transition-colors hover:text-foreground"
                 >
                   Ver projeto
