@@ -1,18 +1,23 @@
+import { ExternalLink } from "lucide-react";
+
 const projects = [
   {
     title: "Projeto em breve",
     description: "Em desenvolvimento. Novidade chegando aqui em breve.",
     tags: ["Front-end", "Web"],
+    link: "",
   },
   {
     title: "Projeto em breve",
     description: "Em desenvolvimento. Novidade chegando aqui em breve.",
     tags: ["JavaScript", "HTML", "CSS"],
+    link: "",
   },
   {
     title: "Projeto em breve",
     description: "Em desenvolvimento. Novidade chegando aqui em breve.",
     tags: ["Design", "Web"],
+    link: "",
   },
 ];
 
@@ -55,6 +60,21 @@ export function Projects() {
                   </span>
                 ))}
               </div>
+              {project.link ? (
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="mt-8 inline-flex items-center gap-2 text-sm font-medium text-terracotta transition-colors hover:text-foreground"
+                >
+                  Ver projeto
+                  <ExternalLink className="size-4" aria-hidden="true" />
+                </a>
+              ) : (
+                <span className="mt-8 text-sm text-muted-foreground">
+                  Link em breve
+                </span>
+              )}
             </div>
           ))}
         </div>
