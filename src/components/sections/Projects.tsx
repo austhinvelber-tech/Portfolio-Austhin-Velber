@@ -1,5 +1,5 @@
 import { ExternalLink, Image as ImageIcon } from "lucide-react";
-import divisoraImage from "@/assets/divisora.png";
+import divisoraImage from "@/assets/divisorah.png";
 import jogoSecretoImage from "@/assets/jogosecreto.png";
 import snakeImage from "@/assets/snake.png";
 
