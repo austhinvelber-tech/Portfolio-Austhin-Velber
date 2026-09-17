@@ -6,21 +6,24 @@ import snakeImage from "@/assets/snake.png";
 const projects = [
   {
     title: "Jogo Secreto",
-    description: "Um jogo interativo de adivinhação de números desenvolvido com lógica em JavaScript.",
+    description:
+      "Um jogo interativo de adivinhação de números desenvolvido com lógica em JavaScript.",
     tags: ["Front-end", "Web", "JavaScript"],
     image: jogoSecretoImage,
     link: "https://jogo-secreto-psi-woad.vercel.app/",
   },
   {
     title: "Jogo da Kobrinha",
-    description: "O clássico jogo Snake recriado para navegadores focado em manipulação do DOM e lógica de movimentação.",
+    description:
+      "O clássico jogo Snake recriado para navegadores focado em manipulação do DOM e lógica de movimentação.",
     tags: ["JavaScript", "HTML", "CSS"],
     image: snakeImage,
     link: "https://kobrinha-theta.vercel.app/",
   },
   {
     title: "Divisora Sparkle",
-    description: "Aplicação web desenvolvida para otimizar fluxos visuais e design de interfaces responsivas.",
+    description:
+      "Aplicação web desenvolvida para otimizar fluxos visuais e design de interfaces responsivas.",
     tags: ["Design", "Web", "React"],
     image: divisoraImage,
     link: "https://divisora-sparkle-885.vercel.app/", // URL pública corrigida
@@ -39,8 +42,7 @@ export function Projects() {
             Trabalhos em desenvolvimento
           </h2>
           <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
-            Alguns dos projetos que estou construindo enquanto aprimoro minhas
-            habilidades.
+            Alguns dos projetos que estou construindo enquanto aprimoro minhas habilidades.
           </p>
         </div>
 
@@ -90,9 +92,7 @@ export function Projects() {
                     <ExternalLink className="size-4" aria-hidden="true" />
                   </span>
                 ) : (
-                  <span className="mt-8 text-sm text-muted-foreground">
-                    Link em breve
-                  </span>
+                  <span className="mt-8 text-sm text-muted-foreground">Link em breve</span>
                 )}
               </div>
             </a>
