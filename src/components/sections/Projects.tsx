@@ -1,25 +1,28 @@
 import { ExternalLink, Image as ImageIcon } from "lucide-react";
+import divisoraImage from "@/assets/divisora.png";
+import jogoSecretoImage from "@/assets/jogosecreto.png";
+import snakeImage from "@/assets/snake.png";
 
 const projects = [
   {
     title: "Jogo Secreto",
     description: "Um jogo interativo de adivinhação de números desenvolvido com lógica em JavaScript.",
     tags: ["Front-end", "Web", "JavaScript"],
-    image: "",
+    image: jogoSecretoImage,
     link: "https://jogo-secreto-psi-woad.vercel.app/",
   },
   {
     title: "Jogo da Kobrinha",
     description: "O clássico jogo Snake recriado para navegadores focado em manipulação do DOM e lógica de movimentação.",
     tags: ["JavaScript", "HTML", "CSS"],
-    image: "",
+    image: snakeImage,
     link: "https://kobrinha-theta.vercel.app/",
   },
   {
     title: "Divisora Sparkle",
     description: "Aplicação web desenvolvida para otimizar fluxos visuais e design de interfaces responsivas.",
     tags: ["Design", "Web", "React"],
-    image: "",
+    image: divisoraImage,
     link: "https://divisora-sparkle-885.vercel.app/", // URL pública corrigida
   },
 ];
