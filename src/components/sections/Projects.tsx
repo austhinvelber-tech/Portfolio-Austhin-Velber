@@ -11,7 +11,7 @@ const projects = [
     title: "Jogo da Kobrinha",
     description: "O clássico jogo Snake recriado para navegadores focado em manipulação do DOM e lógica de movimentação.",
     tags: ["JavaScript", "HTML", "CSS"],
-    link: "https://kobrinha.vercel.app/", // URL pública corrigida
+    link: "https://kobrinha-theta.vercel.app/", // URL pública corrigida
   },
   {
     title: "Divisora Sparkle",
