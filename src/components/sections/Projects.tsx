@@ -2,22 +2,22 @@ import { ExternalLink } from "lucide-react";
 
 const projects = [
   {
-    title: "Projeto em breve",
-    description: "Em desenvolvimento. Novidade chegando aqui em breve.",
-    tags: ["Front-end", "Web"],
+    title: "Jogo Secreto",
+    description: "Um jogo interativo de adivinhação de números desenvolvido com lógica em JavaScript.",
+    tags: ["Front-end", "Web", "JavaScript"],
     link: "https://jogo-secreto-psi-woad.vercel.app/",
   },
   {
-    title: "Projeto em breve",
-    description: "Em desenvolvimento. Novidade chegando aqui em breve.",
+    title: "Jogo da Kobrinha",
+    description: "O clássico jogo Snake recriado para navegadores focado em manipulação do DOM e lógica de movimentação.",
     tags: ["JavaScript", "HTML", "CSS"],
-    link: "",
+    link: "https://kobrinha.vercel.app/", // URL pública corrigida
   },
   {
-    title: "Projeto em breve",
-    description: "Em desenvolvimento. Novidade chegando aqui em breve.",
-    tags: ["Design", "Web"],
-    link: "",
+    title: "Divisora Sparkle",
+    description: "Aplicação web desenvolvida para otimizar fluxos visuais e design de interfaces responsivas.",
+    tags: ["Design", "Web", "React"],
+    link: "https://divisora-sparkle-885.vercel.app/", // URL pública corrigida
   },
 ];
 
@@ -44,7 +44,7 @@ export function Projects() {
               key={index}
               href={project.link || undefined}
               target={project.link ? "_blank" : undefined}
-              rel={project.link ? "noreferrer" : undefined}
+              rel={project.link ? "noopener noreferrer" : undefined} // Otimizado por segurança
               className="group flex flex-col rounded-2xl border border-border bg-card p-8 transition-all hover:border-foreground/20 hover:bg-secondary hover:shadow-lg hover:shadow-foreground/5"
             >
               <h3 className="text-xl font-medium tracking-tight text-foreground">
